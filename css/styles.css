@@ -1,0 +1,11 @@
+#container {
+    width: 720px;
+    height: 720px;
+    display: grid;
+}
+
+ 
+.addGrid {
+    grid-template-rows: repeat(16, auto);
+    grid-template-columns: repeat(16, auto);
+}
